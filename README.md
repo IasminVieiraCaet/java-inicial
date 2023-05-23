@@ -1,5 +1,6 @@
 # Aulas do curso em vídeo.
 A programação orientada a objetos (POO) é um paradigma de programação que se baseia na criação e manipulação de objetos. Nesse estilo de programação, os objetos são criados a partir de modelos chamados de classes, que definem suas características (atributos) e comportamentos (métodos).
+
 # Conceitos básicos da POO.
 Classe: É uma estrutura que define as propriedades e comportamentos de um objeto. É como um modelo ou uma planta que descreve como um objeto deve ser construído. Por exemplo, uma classe "Carro" pode ter atributos como cor, marca e modelo, e métodos como "ligar" e "acelerar".
 
@@ -14,3 +15,4 @@ Encapsulamento: É o conceito de esconder a implementação interna de um objeto
 Herança: É um mecanismo que permite criar uma nova classe baseada em uma classe existente. A classe nova herda os atributos e métodos da classe existente, permitindo reutilização de código e facilitando a organização hierárquica das classes.
 
 Polimorfismo: É a capacidade de um objeto se comportar de maneiras diferentes dependendo do contexto. O polimorfismo permite que classes diferentes implementem métodos com o mesmo nome, mas com comportamentos específicos para cada classe.
+
