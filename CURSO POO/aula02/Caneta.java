@@ -1,3 +1,4 @@
+package aula02;
 public class Caneta {
     private String cor; // Atributo privado
 
@@ -35,7 +36,6 @@ public class Caneta {
         caneta.marca = "Bic"; 
         caneta.tampa = true; 
         caneta.modelo = "Clássica"; 
-        caneta.exibirInformacoes(); 
         caneta.escrever(); 
         caneta.destampar(); 
         caneta.tampar(); 
