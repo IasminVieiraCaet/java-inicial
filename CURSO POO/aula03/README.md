@@ -15,6 +15,8 @@ A composição é um relacionamento mais forte que indica uma relação "todo-pa
 
 # Explicando o projeto:
 
+# CLASSE CARRO
+
 A classe Carro é uma representação de um carro em um sistema orientado a objetos. 
 
 A classe Carro é declarada com o modificador public, o que significa que ela pode ser acessada de outros pacotes.
@@ -27,6 +29,8 @@ O método public void ligar() é responsável por ligar o carro. Ele exibe uma m
 O método public void desligar() é responsável por desligar o carro. Ele exibe uma mensagem indicando que o carro foi desligado e chama o método parar() do objeto motor. Isso significa que o motor do carro também é parado quando o carro é desligado.
 
 Portanto, a classe Carro possui um relacionamento de composição com a classe Motor, indicando que um carro é composto por um motor. O motor é criado dentro do construtor do carro e pode ser acessado pelos métodos ligar() e desligar(), nos quais são chamados métodos específicos do motor para iniciar e parar o motor.
+
+# CLASSE MOTOR
 
 A classe Motor representa um motor em um sistema orientado a objetos. 
 
@@ -43,3 +47,17 @@ O método public void parar() exibe uma mensagem indicando que o motor foi parad
 Na classe Carro, que foi mencionada anteriormente, a classe Motor é usada como parte da composição do carro. Isso significa que a classe Carro possui um objeto da classe Motor como um de seus campos e pode chamar os métodos do objeto Motor para controlar o funcionamento do motor do carro.
 
 O relacionamento entre as classes Carro e Motor demonstra como a POO permite criar estruturas complexas por meio do uso de classes relacionadas entre si. Essa abordagem modular e de composição facilita a modelagem de sistemas em que diferentes componentes têm comportamentos específicos e interagem entre si para cumprir um objetivo comum.
+
+# CLASSE MAIN
+
+A linha public class Main declara a classe Main. A palavra-chave public indica que a classe é acessível de outros pacotes. A classe é chamada Main porque é a classe principal do programa.
+
+A linha public static void main(String[] args) declara o método main, que é um método estático (não requer uma instância da classe para ser chamado) e não retorna nenhum valor (void). O método main é onde a execução do programa começa. Ele recebe um parâmetro String[] args, que representa os argumentos da linha de comando passados para o programa.
+
+Na linha Carro carro = new Carro();, estamos criando uma nova instância da classe Carro e atribuindo-a à variável carro. Aqui, estamos usando o construtor padrão da classe Carro, que não requer argumentos.
+
+Na linha carro.ligar();, chamamos o método ligar() no objeto carro. Esse método imprime uma mensagem indicando que o carro está ligado.
+
+Na linha carro.desligar();, chamamos o método desligar() no objeto carro. Esse método imprime uma mensagem indicando que o carro está desligado.
+
+No exemplo acima, o programa cria um objeto Carro, chama o método ligar() para ligar o carro e, em seguida, chama o método desligar() para desligá-lo. O objetivo é demonstrar o funcionamento básico dos métodos da classe Carro.
